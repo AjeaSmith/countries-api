@@ -33182,7 +33182,7 @@ var Countries = function Countries(_ref) {
     }), /*#__PURE__*/_react.default.createElement("div", {
       className: "country_content"
     }, /*#__PURE__*/_react.default.createElement("h2", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
-      to: "/detail/".concat(country.name).trim()
+      to: "/detail/".concat(country.name).replace(/ /g, '-')
     }, country.name)), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("span", {
       className: "title"
     }, "Population"), ": ", /*#__PURE__*/_react.default.createElement("span", null, country.population)), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("span", {
