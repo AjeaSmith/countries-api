@@ -6,7 +6,7 @@ const Search = ({ search: { onInputChange, onSubmit, searchField } }) => {
             <form onSubmit={(e) => onSubmit(e)}>
                 <div className="searchbox">
                     <i className="fas fa-search"></i>
-                    <input type="text" placeholder="Search for a country..." onChange={(e) => onInputChange(e.target.value)} value={searchField} />
+                    <input type="text" placeholder="Search for a country..." onChange={(e) => onInputChange(e.target.value)} value={searchField} title="search" />
                 </div>
             </form>
         </Fragment>
