@@ -81,7 +81,6 @@ main {
                     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
                     cursor: pointer;
-                    margin-bottom: 38px;
                 }
 
                 .dropdown_content {

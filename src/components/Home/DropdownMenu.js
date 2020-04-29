@@ -4,7 +4,7 @@ import { Dropdown } from 'react-bootstrap';
 const DropdownMenu = ({ onDropdown }) => {
     return (
         <Dropdown onSelect={(href, event) => onDropdown(href, event)}>
-            <Dropdown.Toggle variant="success" id="Dropdown-basic" className="dropdown_btn">
+            <Dropdown.Toggle variant="success" id="Dropdown-basic" className="dropdown_btn" style={{ marginBottom: "0px" }}>
                 <p>Filter by Region</p>
                 <i className="fas fa-chevron-down"></i>
             </Dropdown.Toggle>

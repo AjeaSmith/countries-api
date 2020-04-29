@@ -111,7 +111,6 @@ main .main_wrapper .form_filter .dropdown button {
   -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  margin-bottom: 38px;
 }
 main .main_wrapper .form_filter .dropdown .dropdown_content {
   color: var(--text-color);
