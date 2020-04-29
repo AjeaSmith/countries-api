@@ -9,7 +9,7 @@ const Countries = ({ data }) => {
                     <div className="country" key={i}>
                         <img src={country.flag} alt="Country Flag" />
                         <div className="country_content">
-                            <h2><Link to={`/detail/${country.name}`}>{country.name}</Link></h2>
+                            <h2><Link to={`/detail/${country.name.trim()}`}>{country.name}</Link></h2>
                             <ul>
                                 <li>
                                     <span className="title">Population</span>: <span>{country.population}</span>
