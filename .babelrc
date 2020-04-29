@@ -1,0 +1,10 @@
+// Let's parcel know we are using ES6 and React
+{
+    "presets": [
+        "@babel/preset-react",
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
